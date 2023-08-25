@@ -1,0 +1,39 @@
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    background-color: #1E2F23;
+}
+.container > div{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+.container > div > label{
+    color: #B39C4D;
+    margin-bottom: 1vh;
+}
+
+.container > div > label:nth-child(1){
+    margin-top: 1vh;
+}
+
+.container > div > input{
+    height: 7vh;
+    border: 1px solid ;
+    border-radius: 10px;
+    text-align: center;
+    background: #2e2e2e;
+    color:white;
+}
+
+button {
+    margin-top: 2vh;
+    padding: 2vh;
+    border-radius: 2vh;
+    background-color: #768948;
+    color: white;
+}
